@@ -5,6 +5,9 @@ node_modules
 .pnp
 .pnp.js
 
+#lock files
+package-lock.json
+
 # testing
 coverage
 
@@ -12,6 +15,7 @@ coverage
 .next/
 out/
 build
+.swc/
 
 # misc
 .DS_Store
@@ -27,7 +31,9 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
-!packages/database/.env
 
 # turbo
 .turbo
+
+# ui
+dist/
