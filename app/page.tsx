@@ -4,7 +4,7 @@ import {useState} from 'react'
 import {Input} from '@/components/ui/input'
 import {Button} from '@/components/ui/button'
 import {Send} from 'lucide-react'
-import {Location} from '@/assets/svg/Location'
+import {Location} from '@/public/assets/svg/Location'
 import {Navbar} from '@/components/navbar'
 
 export default function Home() {
