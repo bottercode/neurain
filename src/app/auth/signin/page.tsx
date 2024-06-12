@@ -1,11 +1,11 @@
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
+import { Button } from '@/src/components/ui/button';
+import { Input } from '@/src/components/ui/input';
+import { Label } from '@/src/components/ui/label';
 import Image from 'next/image';
 import Link from 'next/link';
 import signin from '@/public/assets/sign-in.jpg';
 import logo from '@/public/assets/logo.png';
-import { GoogleSignButton } from '@/components/provider/google';
+import { GoogleSignButton } from '@/src/components/provider/google';
 
 const SignIn = () => {
   return (

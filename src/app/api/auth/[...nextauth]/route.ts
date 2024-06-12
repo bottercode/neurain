@@ -1,7 +1,7 @@
 import NextAuth, { SessionStrategy } from 'next-auth';
 import GoogleProvider from 'next-auth/providers/google';
 import { encode, decode } from 'next-auth/jwt';
-import db from '@/lib/db';
+import db from '@/src/lib/db';
 
 const handler = NextAuth({
   providers: [

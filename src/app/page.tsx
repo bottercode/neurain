@@ -1,7 +1,7 @@
 import { Location } from '@/public/assets/svg/Location';
-import { Navbar } from '@/components/Navbar';
-import { FormComponent } from '@/components/FormComponent';
-import { GeneratedPrompt } from '@/components/GeneratedPrompt';
+import { Navbar } from '@/src/components/Navbar';
+import { FormComponent } from '@/src/components/FormComponent';
+import { GeneratedPrompt } from '@/src/components/GeneratedPrompt';
 
 export default function Home() {
   return (

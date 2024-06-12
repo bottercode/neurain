@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { Inter as FontSans } from 'next/font/google';
 import './globals.css';
-import { cn } from '@/lib/utils';
-import Provider from '@/components/provider/SessionProvider';
+import { cn } from '@/src/lib/utils';
+import Provider from '@/src/components/provider/SessionProvider';
 
 export const metadata: Metadata = {
   title: 'Neurain',

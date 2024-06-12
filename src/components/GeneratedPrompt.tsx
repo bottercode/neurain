@@ -4,7 +4,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle
-} from '@/components/ui/card';
+} from '@/src/components/ui/card';
 import {
   Pagination,
   PaginationContent,
@@ -13,8 +13,8 @@ import {
   PaginationLink,
   PaginationEllipsis,
   PaginationNext
-} from '@/components/ui/pagination';
-import { Button } from '@/components/ui/button';
+} from '@/src/components/ui/pagination';
+import { Button } from '@/src/components/ui/button';
 
 export const GeneratedPrompt = () => {
   return (

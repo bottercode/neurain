@@ -1,6 +1,11 @@
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { Button } from '@/src/components/ui/button';
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardContent
+} from '@/src/components/ui/card';
 import {
   Table,
   TableHeader,
@@ -8,14 +13,14 @@ import {
   TableHead,
   TableBody,
   TableCell
-} from '@/components/ui/table';
+} from '@/src/components/ui/table';
 import {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuItem
-} from '@/components/ui/dropdown-menu';
-import { ScrollArea } from '@/components/ui/scroll-area';
+} from '@/src/components/ui/dropdown-menu';
+import { ScrollArea } from '@/src/components/ui/scroll-area';
 import {
   GlobeIcon,
   LineChartIcon,

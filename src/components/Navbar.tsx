@@ -19,7 +19,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger
-} from '@/components/ui/dropdown-menu';
+} from '@/src/components/ui/dropdown-menu';
 
 export const Navbar = () => {
   const { data: session } = useSession();
