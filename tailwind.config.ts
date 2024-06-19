@@ -1,5 +1,5 @@
-import type { Config } from 'tailwindcss';
-const { fontFamily } = require('tailwindcss/defaultTheme');
+import type {Config} from 'tailwindcss';
+const {fontFamily} = require('tailwindcss/defaultTheme');
 
 const config = {
   darkMode: ['class'],
@@ -11,6 +11,9 @@ const config = {
   ],
   prefix: '',
   theme: {
+    fontFamily: {
+      sans: ['var(--font-sans)', ...fontFamily.sans]
+    },
     container: {
       center: true,
       padding: '2rem',
@@ -19,9 +22,6 @@ const config = {
       }
     },
     extend: {
-      fontFamily: {
-        sans: ['var(--font-sans)', ...fontFamily.sans]
-      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -64,12 +64,12 @@ const config = {
       },
       keyframes: {
         'accordion-down': {
-          from: { height: '0' },
-          to: { height: 'var(--radix-accordion-content-height)' }
+          from: {height: '0'},
+          to: {height: 'var(--radix-accordion-content-height)'}
         },
         'accordion-up': {
-          from: { height: 'var(--radix-accordion-content-height)' },
-          to: { height: '0' }
+          from: {height: 'var(--radix-accordion-content-height)'},
+          to: {height: '0'}
         }
       },
       animation: {
